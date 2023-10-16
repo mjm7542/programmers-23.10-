@@ -9,7 +9,7 @@ function solution(A, B) {
     for (i = 0; i < A.length; i++) {
         answer += A[i] * B[i]
     }
-
+    // return A.reduce((total, val, idx) => total + val * B[idx], 0)
     return answer;
 }
 let A = [15, 2, 1]
