@@ -11,4 +11,4 @@ function solution(n) {
         return answer+1;
 }
 
-console.log(solution(15))
+console.log(solution(30))
